@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Group_19070" data-name="Group 19070" transform="translate(-1297 -322)">
+    <rect id="Rectangle_95" data-name="Rectangle 95" width="30" height="30" transform="translate(1297 322)" fill="#eb7373" opacity="0"/>
+    <g id="airplane-solid" transform="translate(1299.435 327.74)">
+      <path id="Path_2718" data-name="Path 2718" d="M6.138,10.644l4.07,1.175L14.682,8.57l-6.42.184a.368.368,0,0,0-.177.057L6.053,9.979a.361.361,0,0,0,.085.665Z" transform="translate(-1.896 -5.982)" fill="#eb7373"/>
+      <path id="Path_2719" data-name="Path 2719" d="M24.51,5.938l-4.459-.963a2.676,2.676,0,0,0-2.173.474l-13.47,9.79L1.172,15.1a.885.885,0,0,0-.588,1.571l3.15,2.5a.389.389,0,0,0,.375.064c.9-.347,4.247-2.124,8.2-4.3l.793,8.147a.389.389,0,0,0,.637.262l1.77-1.472a.538.538,0,0,0,.184-.319l1.678-9.407c2.831-1.571,5.535-3.093,7.44-4.169a1.1,1.1,0,0,0-.3-2.039Z" transform="translate(-0.257 -4.914)" fill="#eb7373"/>
+    </g>
+  </g>
+</svg>

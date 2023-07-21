@@ -1,0 +1,232 @@
+.hide-modal {
+  width: 0% !important;
+  overflow: hidden !important;
+}
+
+.show-modal {
+  width: 70% !important;
+}
+
+.show-modal-dialog {
+  width: 100% !important;
+}
+
+.custom-modal-dialog {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 9999;
+  transition: 0.5s;
+}
+
+.custom-modal-outer-div {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 10000;
+  transition: 0.5s;
+}
+
+.custom-modal-outer-div .custom-modal-header {
+  width: 100%;
+  min-height: 10vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.custom-modal-outer-div .custom-modal-header .cancel-icon {
+  font-size: 30px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-right: 3rem;
+  margin-top: 1rem;
+  color: #dadada;
+  z-index: 999;
+  transition: 0.6s;
+}
+.custom-modal-outer-div .custom-modal-header .cancel-icon:hover {
+  transform: rotate(-180deg);
+}
+.custom-modal-body {
+  position: relative;
+  top: 50%;
+  transform: translateY(-60%);
+  padding: 0rem 0rem 0rem 3rem;
+  width: 80%;
+  margin-right: auto;
+}
+
+.custom-modal-body p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #2c3441;
+  line-height: 40px;
+  margin-bottom: 0rem;
+}
+
+.custom-modal-body p span {
+  color: #eb7373;
+}
+
+.custom-modal-body p input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1.5px solid rgba(128, 128, 128, 0.578);
+  margin: 0rem 0.5rem;
+  width: 35%;
+  height: 30px;
+  text-align: center;
+}
+.custom-modal-body p input.invalid {
+  border-bottom-color: #ff0000 !important;
+}
+.custom-modal-body .last-p input {
+  width: 30% !important;
+}
+
+.custom-modal-body p input::placeholder {
+  text-align: center;
+  opacity: 1;
+  color: #c7c6c6;
+}
+
+.custom-modal-body p input:focus {
+  outline: none;
+}
+
+.custom-modal-body p input:focus::placeholder {
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.custom-modal-body ul {
+  padding-left: 0rem;
+  margin-left: 0rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.custom-modal-body ul li {
+  margin-right: 0.7rem;
+  margin-bottom: 1rem;
+  font-size: 13px;
+
+  border: 1px solid black;
+  padding: 0.5rem 0.8rem;
+  cursor: pointer;
+}
+.custom-modal-body ul li.active {
+  background-color: #2c3441;
+  color: #fff;
+}
+.modal-hello {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-hello .Heelo-tag {
+  position: absolute;
+  top: 0%;
+  left: 5%;
+
+  font-size: 80px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.217);
+  opacity: 0.2;
+}
+.custom-modal-body .middle-para {
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+.custom-modal-body ul {
+  margin-bottom: 2rem;
+}
+.custom-modal-body .last-p {
+  margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 1400px) {
+  .custom-modal-body .middle-para {
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .custom-modal-body ul {
+    margin-bottom: 1rem;
+  }
+  .custom-modal-body .last-p {
+    margin-bottom: 1rem;
+  }
+  .custom-modal-body .last-p input{
+    width: 25%;
+  }
+  .custom-modal-body{
+    transform: translateY(-70%);
+  }
+}
+@media screen and (max-width: 1200px) {
+    .modal-hello .Heelo-tag {
+        top: 0% !important;
+        display: none;
+    }
+}
+@media screen and (max-width: 992px) {
+  .show-modal {
+    width: 100% !important;
+  }
+  .custom-modal-body {
+    transform: translateY(-104%);
+  }
+  .modal-hello {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .custom-modal-outer-div .custom-modal-header .cancel-icon {
+    margin-top: 0;
+    margin-right: 1.5rem;
+  }
+  .custom-modal-body {
+    padding: 0rem 1rem !important;
+  }
+  .custom-modal-body {
+    transform: translateY(-63%);
+    width: 100%;
+  }
+  .custom-modal-body p input {
+    width: 148px !important;
+  }
+  .custom-modal-body .last-p input {
+    width: 38% !important;
+  }
+  .custom-modal-body p {
+    line-height: 40px;
+  }
+
+  .custom-modal-body ul {
+    margin-bottom: 0rem !important;
+  }
+
+  .custom-modal-body ul li {
+    margin-right: 0.3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .custom-modal-body .last-p {
+    margin-bottom: 1.5rem !important;
+  }
+}
+

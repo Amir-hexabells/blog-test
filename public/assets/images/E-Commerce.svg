@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Group_19063" data-name="Group 19063" transform="translate(-150 -322)">
+    <rect id="Rectangle_93" data-name="Rectangle 93" width="30" height="30" transform="translate(150 322)" fill="#eb7373" opacity="0"/>
+    <g id="shopping-cart-solid" transform="translate(153.911 327.651)">
+      <path id="Path_38" data-name="Path 38" d="M13.5,28.25A1.25,1.25,0,1,1,12.25,27,1.25,1.25,0,0,1,13.5,28.25Z" transform="translate(-4.954 -9.189)" fill="#eb7373"/>
+      <path id="Path_39" data-name="Path 39" d="M26.5,28.25A1.25,1.25,0,1,1,25.25,27,1.25,1.25,0,0,1,26.5,28.25Z" transform="translate(-7.492 -9.189)" fill="#eb7373"/>
+      <path id="Path_40" data-name="Path 40" d="M23.713,5.409a.676.676,0,0,0-.546-.289H7.2L6.889,4.062a.716.716,0,0,0-.456-.481L3.6,2.648a.687.687,0,0,0-.867.492.754.754,0,0,0,.46.929l2.481.814L8.838,15.595l-1.127.992-.09.1a2.078,2.078,0,0,0-.055,2.5,1.848,1.848,0,0,0,1.562.74H20.664a.742.742,0,0,0,0-1.48H9.018a.46.46,0,0,1-.388-.253.527.527,0,0,1,0-.487l1.666-1.48H20.962a.7.7,0,0,0,.691-.563l2.212-9.623a.779.779,0,0,0-.152-.629Z" transform="translate(-2.7 -2.615)" fill="#eb7373"/>
+    </g>
+  </g>
+</svg>

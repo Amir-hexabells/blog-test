@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Group_19059" data-name="Group 19059" transform="translate(-724 -677)">
+    <rect id="Rectangle_97" data-name="Rectangle 97" width="30" height="30" transform="translate(724 677)" fill="#eb7373" opacity="0"/>
+    <g id="building-solid" transform="translate(728.404 681.039)">
+      <path id="Path_35" data-name="Path 35" d="M28.577,8H22V26.269h8.038V9.461A1.461,1.461,0,0,0,28.577,8ZM24.923,20.423H23.461V18.961h1.461Zm0-3.654H23.461V15.307h1.461Zm0-3.654H23.461V11.654h1.461Zm2.923,7.307H26.384V18.961h1.461Zm0-3.654H26.384V15.307h1.461Zm0-3.654H26.384V11.654h1.461Z" transform="translate(-8.847 -4.346)" fill="#eb7373"/>
+      <path id="Path_36" data-name="Path 36" d="M14.143,3H5.549A1.549,1.549,0,0,0,4,4.549V24.922H7.654V22.73h4.384v2.192h3.654V4.549A1.549,1.549,0,0,0,14.143,3ZM7.654,19.076H6.192V17.615H7.654Zm0-3.654H6.192V13.961H7.654Zm0-3.654H6.192V10.307H7.654Zm0-3.654H6.192V6.654H7.654Zm2.923,10.961H9.115V17.615h1.461Zm0-3.654H9.115V13.961h1.461Zm0-3.654H9.115V10.307h1.461Zm0-3.654H9.115V6.654h1.461ZM13.5,19.076H12.038V17.615H13.5Zm0-3.654H12.038V13.961H13.5Zm0-3.654H12.038V10.307H13.5Zm0-3.654H12.038V6.654H13.5Z" transform="translate(-4 -3)" fill="#eb7373"/>
+    </g>
+  </g>
+</svg>

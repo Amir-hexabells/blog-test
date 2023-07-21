@@ -1,0 +1,20 @@
+.main-menu-sticky{
+    position: relative;
+    width: 100%;
+    
+}
+.main-menu-sticky .left-siderbar-menu{
+    position: absolute;
+    left: 0%;
+    width: 70%;
+    background-color: black;
+    height: 100vh;
+}
+.main-menu-sticky .right-siderbar-menu {
+    position: absolute;
+    right: 0%;
+    width: 30%;
+    background-color: white;
+    height: 100vh;
+    
+}

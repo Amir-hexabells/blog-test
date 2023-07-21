@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="158" height="158" viewBox="0 0 158 158">
+  <g id="Resoning-Door" transform="translate(-59 -33)">
+    <rect id="Interaction" width="158" height="158" transform="translate(59 33)" fill="none"/>
+    <g id="Layer_2" data-name="Layer 2" transform="translate(81 55)">
+      <path id="Path_11581" data-name="Path 11581" d="M60.66,29A6.66,6.66,0,0,1,54,35.66H49V49H35.66V44a6.67,6.67,0,1,0-13.34,0v5H9V9H49V22.34h5A6.66,6.66,0,0,1,60.66,29ZM107,7V47H93.66v5a6.67,6.67,0,0,1-13.34,0V47H67V33.66h5a6.67,6.67,0,1,0,0-13.34H67V7ZM35.34,87A6.66,6.66,0,0,0,42,93.66h5V107H7V67H20.34V62a6.67,6.67,0,1,1,13.34,0v5H47V80.34H42A6.66,6.66,0,0,0,35.34,87ZM105,65v40H65V91.66H60a6.67,6.67,0,0,1,0-13.34h5V65H78.34v5a6.67,6.67,0,0,0,13.34,0V65Z" transform="translate(0 0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,51 @@
+.pagination-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0rem;
+}
+.pagination-container .page-number {
+  margin: 10px;
+  cursor: pointer;
+  padding: 10px;
+  position: relative;
+  font-size: 18px;
+  /* border-radius: 50%; */
+  /* background-color: rgba(0,0,0,0.1); */
+}
+.pagination-container .page-number.active {
+  /* background-color: #f6f6f6; */
+  /* font-size: 20px; */
+  position: relative;
+  font-weight: bold;
+  /* vertical-align: middle; */
+  color: #eb7373;
+  /* top: -0.2rem; */
+  /* width: 50px; */
+  /* height: 50px; */
+  /* border-radius: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); */
+}
+.pagination-container .pagination {
+  display: flex;
+  list-style: none;
+}
+.pagination-container .page-number.last-li::before {
+  content: "";
+  background-image: url(/assets/images/Blogs/angle.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  right: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  transition: 0.2s;
+}
+.pagination-container .page-number.last-li:hover::before {
+  right: -15px;
+}

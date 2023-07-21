@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="158" height="158" viewBox="0 0 158 158">
+  <g id="Interaction-Door" transform="translate(-59 -33)">
+    <rect id="Interaction" width="158" height="158" transform="translate(59 33)" fill="none"/>
+    <path id="Path_11580" data-name="Path 11580" d="M97.444,91.889H91.889V14.111a5.572,5.572,0,0,0-5.556-5.556H64.111A5.572,5.572,0,0,0,58.556,3H19.667a5.572,5.572,0,0,0-5.556,5.556V91.889H8.556a5.556,5.556,0,1,0,0,11.111h50a5.572,5.572,0,0,0,5.556-5.556V19.667H80.778V97.444A5.572,5.572,0,0,0,86.333,103H97.444a5.556,5.556,0,1,0,0-11.111ZM53,58.556H41.889V47.444H53Z" transform="translate(84.932 58.932)" fill="#fff"/>
+  </g>
+</svg>

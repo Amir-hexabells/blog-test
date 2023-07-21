@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Export" transform="translate(-150 -322)">
+    <rect id="Rectangle_93" data-name="Rectangle 93" width="60" height="60" transform="translate(150 322)" fill="#eb7373" opacity="0"/>
+    <g id="deploy-solid" transform="translate(158.954 331.276)">
+      <path id="Path_2732" data-name="Path 2732" d="M35.265,2H22.29a1.19,1.19,0,0,0,0,2.381H32.444l-10.5,10.713a1.191,1.191,0,1,0,1.7,1.667L34.075,6.119V16.165a1.19,1.19,0,1,0,2.381,0V3.19A1.19,1.19,0,0,0,35.265,2Z" transform="translate(3.636)" fill="#eb7373"/>
+      <path id="Path_2733" data-name="Path 2733" d="M14.3,10.756a1.19,1.19,0,0,0-1.19,0L2.78,16.707l10.975,6.273,10.939-6.261Z" transform="translate(0.148 1.636)" fill="#eb7373"/>
+      <path id="Path_2734" data-name="Path 2734" d="M2,29.719a1.19,1.19,0,0,0,.6,1.036L12.713,36.54V23.446L2,17.28Z" transform="translate(0 2.909)" fill="#eb7373"/>
+      <path id="Path_2735" data-name="Path 2735" d="M13,36.538l10.118-5.785a1.19,1.19,0,0,0,.6-1.036V17.29L13,23.42Z" transform="translate(2.094 2.911)" fill="#eb7373"/>
+    </g>
+  </g>
+</svg>

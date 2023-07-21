@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Code" transform="translate(-150 -322)">
+    <rect id="Rectangle_93" data-name="Rectangle 93" width="60" height="60" transform="translate(150 322)" fill="#eb7373" opacity="0"/>
+    <g id="code-slash" transform="translate(157.869 331.146)">
+      <path id="Path_2726" data-name="Path 2726" d="M13.761,31.836a1.822,1.822,0,0,1-1.205-.454L1.4,21.619a1.831,1.831,0,0,1,0-2.755L12.556,9.1a1.831,1.831,0,1,1,2.411,2.756L5.383,20.242l9.583,8.384a1.831,1.831,0,0,1-1.205,3.21Z" transform="translate(0 0.821)" fill="#eb7373"/>
+      <path id="Path_2727" data-name="Path 2727" d="M25.1,31.836A1.831,1.831,0,0,1,23.9,28.627l9.584-8.386L23.9,11.858A1.831,1.831,0,1,1,26.31,9.1l11.157,9.763a1.831,1.831,0,0,1,0,2.755L26.31,31.382A1.821,1.821,0,0,1,25.1,31.836Z" transform="translate(5.394 0.821)" fill="#eb7373"/>
+      <path id="Path_2728" data-name="Path 2728" d="M14.979,36.841a1.831,1.831,0,0,1-1.754-2.353L21.593,6.594A1.831,1.831,0,1,1,25.1,7.64L16.732,35.534a1.831,1.831,0,0,1-1.753,1.307Z" transform="translate(2.967)" fill="#eb7373"/>
+    </g>
+  </g>
+</svg>
