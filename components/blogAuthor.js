@@ -11,8 +11,16 @@ function BlogAuthor(props) {
       <img src="/assets/images/Abhishek-Pandey.webp" alt="profile-pic"  height='154px' width='154px'/>
       <Link href={ (props.blogName) ? (`/blogs/${props.blogName}/author/1`): '#' }>
         <span>By Kushal Kumar Singh</span>
-        <img src="/assets/images/icons/sm-down-arrow-black.svg" alt="arrow" height='14px' width='15px' className={Classes['black']}/>
-        <img src="/assets/images/icons/sm-down-arrow-red.svg" alt="arrow" height='14px' width='15px' className={Classes['red']}/>
+        {
+          (props.blogName) ? 
+          ( 
+            <>
+          <img src="/assets/images/icons/sm-down-arrow-black.svg" alt="arrow" height='14px' width='15px' className={Classes['black']}/>
+          <img src="/assets/images/icons/sm-down-arrow-red.svg" alt="arrow" height='14px' width='15px' className={Classes['red']}/>
+          </>
+          )  : ''
+        }
+       
       </Link>
     </div>
 

@@ -83,12 +83,9 @@ console.log(blogData);
                   <p className={Styles['relevant-categories']}>
                     Technology | Robotics | Innovation
                   </p>
-                    
-                    <div>
                       <article
                         dangerouslySetInnerHTML={{ __html: blogData.content }}
                       />
-                    </div>
                     <p className={Styles['share-post']}>
                       Share post via:
                     </p>
@@ -224,10 +221,12 @@ console.log(blogData);
             </div>
             
             <div className={Classes["blog-item-content"]}>
+              <p>
               <span className={Classes['create-date']}>
                 {formatDate(el.created_at)} -{" "}
               </span>
               <span className={Classes['category']}> {el.get_category?.title}</span>
+              </p>
               <h3 className={Classes['title']}>{el.title}</h3>
               <p className={Classes['summary']}>{el.summery}</p>
             </div>

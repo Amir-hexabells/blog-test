@@ -1,20 +1,31 @@
 
 /* blog content section */
 .blog-data{
-  
+
+  user-select: none !important;
 }
 
+.blog-data article h5.block-quote-note{
+  margin: 0px !important;
+
+}
+.blog-data article ul{
+  margin: 20px 0 0 0 !important;
+}
+.blog-data article ul li *{
+
+  font-size:14px !important;
+}
+.blog-data article  p span{
+  font-size:14px !important;
+}
 .blog-data img{
   
 }
-.blog-data .blog-heading{
-  margin:0;
-  margin-top:50px;
-}
+
 
 .blog-data p.date-by,
 .blog-data .relevant-categories{
-  margin-top:20px;
   font-size:18px;
   color:#707070;
 }
@@ -38,13 +49,13 @@
   font-size:20px;
 }
 .share-links{
-  margin-top:30px;
+  margin-top:20px;
 }
 
 /* explore more section */
 
   .explore-more-blogs h2{
-    font-size:52px;
+    /* font-size:52px; */
     color:#2C3441;
   }
 
