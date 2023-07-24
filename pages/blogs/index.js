@@ -221,13 +221,13 @@ useEffect(()=>{
           />
           {/* Header End */}
 
-          {/* Blog section start */}
+          {/* Featured blog */}
           <div className={`${Classes["filter-section"]}`}>
             <div className={`${Classes["main-blog-content"]} ${Classes['outer-top-margin']}`}>
               {isApiHitComplete ? (
                 isBlogsFound ? (
                   <>  
-                  <div className={Classes['featured-blog']}>
+                  <div className={`${Classes['featured-blog']} ${Classes['inner-top-margin']}`}>
                   <ResponsiveMasonry
                            columnsCountBreakPoints={{350: 1, 768: 1, 992: 1}}
                         >
@@ -262,10 +262,13 @@ useEffect(()=>{
                                 <p className={Classes['featured-badge']}>
                                   <span>Featured</span>
                                 </p>
+                                <p  className={Classes['category-date']}>
                                 <span className={Classes['create-date']}>
                                   {formatDate(el.created_at)} -{" "}
                                 </span>
                                 <span className={Classes['category']}> {el.get_category?.title}</span>
+                                </p>
+                                
                                 <h2 className={Classes['title']}>{el.title}</h2>
                                 <p className={Classes['summary']}>{el.summery}</p>
                               </div>
@@ -319,10 +322,13 @@ useEffect(()=>{
                               
                               
                               <div className={Classes["blog-item-content"]}>
+                                <p>
                                 <span className={Classes['create-date']}>
                                   {formatDate(el.created_at)} -{" "}
                                 </span>
                                 <span className={Classes['category']}> {el.get_category?.title}</span>
+                                </p>
+                            
                                 <h3 className={Classes['title']}>{el.title}</h3>
                                 <p className={Classes['summary']}>{el.summery}</p>
                               </div>
@@ -387,10 +393,12 @@ useEffect(()=>{
                               </div>
                               
                               <div className={Classes["blog-item-content"]}>
+                                <p>
                                 <span className={Classes['create-date']}>
                                   {formatDate(el.created_at)} -{" "}
                                 </span>
                                 <span className={Classes['category']}> {el.get_category?.title}</span>
+                                </p>
                                 <h3 className={Classes['title']}>{el.title}</h3>
                                 <p className={Classes['summary']}>{el.summery}</p>
                               </div>
